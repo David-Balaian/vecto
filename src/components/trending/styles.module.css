@@ -1,0 +1,19 @@
+.trending{
+    position: absolute;
+    width: calc(100% - 170px);
+    overflow: auto;
+    left: 170px;
+    bottom: 0px;
+    color: aliceblue;
+    z-index: 5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    border: none;
+    padding: 0;
+}

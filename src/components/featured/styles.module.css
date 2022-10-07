@@ -1,0 +1,29 @@
+.featured{
+    position: absolute;
+    width: calc(100% - 170px);
+    height: 100vh;
+    left: 168px;
+    z-index: 1;
+}
+
+.content{
+    position: absolute;
+    left: 0;
+    top: 140px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoCont{
+    height: calc(100% - 300px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+video{
+    height: 100%;
+    margin: 0 auto;
+}
