@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vecto/static/css/main.bb794c40.css",
-    "main.js": "/vecto/static/js/main.123b0dbc.js",
+    "main.js": "/vecto/static/js/main.3d325a4c.js",
     "static/js/787.c84f9b4e.chunk.js": "/vecto/static/js/787.c84f9b4e.chunk.js",
     "index.html": "/vecto/index.html",
     "main.bb794c40.css.map": "/vecto/static/css/main.bb794c40.css.map",
-    "main.123b0dbc.js.map": "/vecto/static/js/main.123b0dbc.js.map",
+    "main.3d325a4c.js.map": "/vecto/static/js/main.3d325a4c.js.map",
     "787.c84f9b4e.chunk.js.map": "/vecto/static/js/787.c84f9b4e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb794c40.css",
-    "static/js/main.123b0dbc.js"
+    "static/js/main.3d325a4c.js"
   ]
 }
