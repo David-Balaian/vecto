@@ -3,18 +3,9 @@ import Feature from './components/featured';
 import Trandings from './components/trending';
 import styles from './App.module.css';
 import { useState } from 'react';
-import data from './utils/data.json';
+import { startUp } from './utils/startUp';
 
-const {Featured, TendingNow} = data;
-const trendings = TendingNow.sort((a,b)=>Date.parse(a.Date) - Date.parse(b.Date))
-const sessionFeatureds = sessionStorage.getItem('featureds')
-
-if(!sessionFeatureds){
-  sessionStorage.setItem('featureds', JSON.stringify(trendings.map(item=>item.Id)))
-}else{
-  let ids = JSON.parse(sessionFeatureds)
-  trendings.sort((a, b) => ids.indexOf(a.Id) - ids.indexOf(b.Id));
-}
+const {Featured, trendings} = startUp()
 
 
 function App() {
